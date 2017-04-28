@@ -4,9 +4,8 @@ BINDIR = bin
 
 DEVICE     = atmega32u2
 CLOCK      = 16000000
-# PROGRAMMER = -c atmelice_isp -B 1
-PROGRAMMER = -c flip1 -u #when using the DFU bootloader
-FUSES      = -U hfuse:w:0xD8:m -U lfuse:w:0xDE:m -U efuse:w:0xC3:m #Defaults, but JTAG disabled.
+PROGRAMMER = -c flip1 -u
+FUSES      = -U hfuse:w:0xd9:m -U lfuse:w:0xde:m -U efuse:w:0xf4:m #Defaults, no clock DIV.
 
 SOURCES = $(wildcard $(SRCDIR)/*.c)
 OBJECTS = $(SOURCES:$(SRCDIR)/%.c=$(OBJDIR)/%.o)
