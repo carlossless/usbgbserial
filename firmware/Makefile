@@ -4,7 +4,7 @@ BINDIR = bin
 
 DEVICE     = atmega32u2
 CLOCK      = 16000000
-PROGRAMMER = -c flip1 -u
+PROGRAMMER = -c atmelice_isp -u
 FUSES      = -U hfuse:w:0xd9:m -U lfuse:w:0xde:m -U efuse:w:0xf4:m #Defaults, no clock DIV.
 
 SOURCES = $(wildcard $(SRCDIR)/*.c)
