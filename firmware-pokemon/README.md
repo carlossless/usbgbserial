@@ -12,8 +12,8 @@ All of the communication and trade-simulation is done on the atmega32u2 and does
 
 # TODOs
 
-- [] Use AVR SPI peripheral for the link protocol instead of single I/O pin interrupts. (requires board change)
-- [] Implement a timeout for when a player exits the trade room and reset back to the `NOT_CONNECTED` state.
+* Use AVR SPI peripheral for the link protocol instead of single I/O pin interrupts. (requires board change)
+* Implement a timeout for when a player exits the trade room and reset back to the `NOT_CONNECTED` state.
 
 # References
 
