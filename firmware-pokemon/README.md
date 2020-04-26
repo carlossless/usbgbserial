@@ -6,16 +6,16 @@ The main parts of the protocol have been figured out thanks to [Bulbapedia](http
 
 All of the communication and trade-simulation is done on the atmega32u2 and does not require use of a connected USB host (PC) to usbgbserial.
 
-# Video
+## Video
 
-**TBD**
+<iframe width="560" height="315" src="https://www.youtube.com/embed/4CrVcxVYpOA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-# TODOs
+## TODOs
 
 * Use AVR SPI peripheral for the link protocol instead of single I/O pin interrupts. (requires board change)
 * Implement a timeout for when a player exits the trade room and reset back to the `NOT_CONNECTED` state.
 
-# References
+## References
 
 * [SameBoy](https://sameboy.github.io/) - a cross-platform DMG/GBC emulator that works great on macOS.
 * [Bulbapedia](https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9mon_data_structure_in_Generation_II) - full documentation on the 48byte data structure that is used to store pokemon data in Gen2 games.
