@@ -8,7 +8,7 @@ All of the communication and trade-simulation is done on the atmega32u2 and does
 
 ## Video
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/4CrVcxVYpOA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[![usbgbserial-pokemon](https://img.youtube.com/vi/4CrVcxVYpOA/0.jpg)](https://youtu.be/4CrVcxVYpOA)
 
 ## TODOs
 
